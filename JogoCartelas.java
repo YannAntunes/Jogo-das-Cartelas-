@@ -27,7 +27,7 @@ class JogoCartelas {
             for(int j = 0; j < cartelas[i].length; j++) {   
                 System.out.printf("%2d ", cartelas[i][j]);
                 if ((j+1) % 8 == 0) {
-                    System.out.println("teste");
+                    System.out.println();
                 }
             }        
              
@@ -52,4 +52,5 @@ class JogoCartelas {
         sc.close();
     
     } 
+
 }
